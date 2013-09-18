@@ -1,0 +1,209 @@
+<htmlform> <!--
+	    MATERNAL DEATH NOTIFICATION FORM (v0.1)
+		Author: RURANGIRWA Bailly, Marie Claire INGABIRE, Desire MANZI RUZIGANA, Milton KENGYE
+		Builder: Bailly RURANGIRWA 
+		started on Sept 18, 2013		
+	-->
+<style>
+.formName {
+	background-color: #e0e0ff;
+}
+
+.section {
+	border: 1px solid #8FABC7;
+	text-align: left;
+	margin-bottom: 10px;
+}
+
+.disabled {
+	color: #D8D8D8;
+}
+
+.sectionHeader {
+	background-color: #3333cc;
+	color: white;
+	display: block;
+	padding: 2px;
+	font-weight: bold;
+}
+
+table.symptoms th {
+	text-align: right;
+}
+
+th.subheader {
+	background-color: #8FABC7;
+	color: white
+}
+
+.note {
+	color: red;
+}
+
+td {
+    border-color:white;
+	vertical-align: top;
+}
+
+td.centered {
+   text-align: center;
+   vertical-align: middle;
+}
+
+td.left {
+   text-align: left;
+   vertical-align: middle;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+.disdiv {
+	background-color: grey;
+}
+/* for centering the page */
+
+#wrapper0{  
+   width:1400px;  
+   margin:0 auto;
+}
+
+#wrapper1{  
+   width:1400px;  
+   margin:0 auto;
+}
+
+</style>
+<script type="text/javascript">
+beforeSubmit.push(function() {
+   alert('This is just a demo form, attached concepts are only for demo purpose');
+    return false;
+});
+</script>
+<div id="wrapper1">
+<section>
+
+<table border="0" cellspacing="0" cellpadding="6" width="100%">
+	<tr>
+		<td class="centered" colspan="2"><strong> DEPARTMENT OF HEALTH <br />
+				CONFIDENTIAL</strong> <br /></td>
+	</tr>
+	<tr style="text-align: center;">
+	<td style="text-align: center; width:37%;"></td>
+		<td class="centered"><strong> <br /><div style="text-align: center; border-style: double; width:40%;">MATERNAL DEATH NOTIFICATION FORM</div></strong><br /></td>
+	</tr>
+	</table>
+	<table>
+	<tr>
+	<td style="text-align: center; width:50%;"></td>
+		<td class="centered"><br /><div style="text-align: center; border: 2px black solid; width:100%;">For office use only: Department of Health Office case number </div><br /></td>
+	</tr>
+	</table>
+	<table align="center">
+	<tr>
+		<td class="left" colspan="2">NOTE:</td>
+	</tr>
+	<tr>
+		<td class="left" colspan="2">1. This form must be completed for all deaths, including abortions and ectopic gestation related<br/> 
+deaths, in pregnant women or within 42 days after termination of pregnancy irrespective of<br/>
+duration or site of pregnancy <br /></td>
+	</tr>
+	<tr>
+		<td class="left" colspan="2">2. Mark with an (X) where applicable (? means unknown)<br /></td>
+	</tr>
+	<tr>
+		<td class="left" colspan="2">3. Attach a copy of the case records to this form<br /></td>
+	</tr>
+	<tr>
+		<td class="left" colspan="2">4. Complete the form in duplicate within 7 days of a maternal death. The original remains at the<br/>
+institution where the death occurred and the copy is sent to the person responsible for<br/>
+maternal health in the province<br /></td>
+	</tr>
+	<tr>
+      	<td class="centered" colspan="2">
+			<obs conceptId="3cdc5938-26fe-102b-80cb-0017a47871b2" rows="3" cols="80" />
+		</td>				
+	</tr>
+</table>
+<br/><br/>
+<table align="center" width="70%">
+  <tr>
+	<td colspan="2"><strong>1. LOCALITY WHERE DEATH OCCURRED</strong><br /><br /></td>
+  </tr>
+   <tr>
+	<td ><obs conceptId="464f70ef-ce7b-4401-a159-2d6a5819e06c" labelText="Province" /></td>
+	<td ><obs conceptId="464f70ef-ce7b-4401-a159-2d6a5819e06c" labelText="Health District" /></td>
+  </tr>
+   <tr>
+	<td ><obs conceptId="464f70ef-ce7b-4401-a159-2d6a5819e06c" labelText="Institution" /></td>
+	<td ><obs conceptId="464f70ef-ce7b-4401-a159-2d6a5819e06c" labelText="Locality" /></td>
+  </tr>
+</table>
+<br /><br />
+<table  align="center" width="70%">
+  <tr>
+	<td colspan="4"><strong>2. DETAILS OF DECEASED</strong><br /><br /></td>
+  </tr>
+   <tr>
+	<td colspan="3"><obs conceptId="464f70ef-ce7b-4401-a159-2d6a5819e06c" labelText="Name" /></td>
+	<td ><obs conceptId="464f70ef-ce7b-4401-a159-2d6a5819e06c" labelText="Inpatient No." /></td>
+  </tr>
+   <tr>
+	<td colspan="4">Address<obs conceptId="3cdc5938-26fe-102b-80cb-0017a47871b2" rows="2" cols="80" /></td>
+  </tr>
+  <tr>
+	<td colspan="2">
+	Age (yr)<obs conceptId="3cdd3204-26fe-102b-80cb-0017a47871b2"/><obs conceptId="3cdd3204-26fe-102b-80cb-0017a47871b2"/>
+	</td>
+	<td colspan="2">
+	Race<obs conceptId="3cdd3204-26fe-102b-80cb-0017a47871b2"/><obs conceptId="3cdd3204-26fe-102b-80cb-0017a47871b2"/>AF = African; CO = Coloured; In = Indian; WH = White; OT=Other
+	</td>
+	</tr>
+	 <tr>
+	<td >
+	At time of death<br/>Gravida<obs conceptId="3cdd3204-26fe-102b-80cb-0017a47871b2"/><obs conceptId="3cdd3204-26fe-102b-80cb-0017a47871b2"/>
+	</td>
+	<td >
+	Para<obs conceptId="3cdd3204-26fe-102b-80cb-0017a47871b2"/><obs conceptId="3cdd3204-26fe-102b-80cb-0017a47871b2"/>
+	</td>
+	<td >
+	Gestation (weeks)<br/>(or at delivery)<obs conceptId="3cdd3204-26fe-102b-80cb-0017a47871b2"/><obs conceptId="3cdd3204-26fe-102b-80cb-0017a47871b2"/>
+	</td>
+	<td >
+	Days since delivery/abortion<br/>(if not applicable enter 99)<obs conceptId="3cdd3204-26fe-102b-80cb-0017a47871b2"/><obs conceptId="3cdd3204-26fe-102b-80cb-0017a47871b2"/>
+	</td>
+	</tr>
+</table>
+
+</section>
+</div>
+<br/>
+<div id="wrapper0">
+<section>
+<table border="0" cellspacing="0" cellpadding="6" width="100%">
+<tr>
+		<td><b> Patient ID: <lookup class="value"
+					expression="patientIdentifiers.get(&quot;IMB ID&quot;)" /> </b></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Name: <lookup class="value"
+				expression="patient.personName.familyName" /> <lookup class="value"
+				expression="patient.personName.givenName" /> </td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Clinique / Clinic: <encounterLocation
+				default="Butaro Hospital" /> Date: <encounterDate default="today"/>
+		</td>
+		<td align="right">Form filled by:<encounterProvider id="encounterProvider"
+				role="Oncology Provider" />
+		</td>
+	</tr>
+	</table>
+	</section>
+	</div>
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<submit /> 
+
+</htmlform>
